@@ -10,9 +10,17 @@ Patch other files (boot.img, firmwares) using patch file (.p) with "ApplyPatchfn
 ## Requirements
 For Building this tool you need :
 
+* make
+* g++
 * zlib
 * libbz2
 * openssl
+
+```
+sudo apt install make g++ zlib1g zlib1g-dev libbz2-dev libssl-dev
+```
+
+Then run `make`. Executables will be placed in `bin` directory.
 
 It currently supports Linux x86/x64 & MacOS, Not tested on Windows.
 
